@@ -1,15 +1,12 @@
 package com.gamercurse.niftyutilities;
 
 import com.gamercurse.niftyutilities.Proxy.IProxy;
-import com.gamercurse.niftyutilities.configuration.ConfigurationHandler;
+import com.gamercurse.niftyutilities.handler.ConfigurationHandler;
 import com.gamercurse.niftyutilities.reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-
-import javax.imageio.IIOParam;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class NiftyUtilities
