@@ -1,34 +1,44 @@
 package com.gamercurse.niftyutilities.configuration;
 
 
-import java.io.File;
+import com.gamercurse.niftyutilities.reference.Reference;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
+
+import java.io.File;
 
 public class ConfigurationHandler
 {
-    public static void  init(File configFile)
+    public static Configuration configuration;
+    public static boolean testValue = false;
+
+    public static void init(File configFile)
     {
-       Configuration configuration = new Configuration(configFile);
-        boolean configValue = false;
-        try
+        // Create the configuration object from the given configuration file
+        if (configuration == null)
         {
-            configuration.load();
-
-            configValue = configuration.get(configuration.CATEGORY_GENERAL, "configValue", true, "this is a test" ).getBoolean(true);
+            configuration = new Configuration(configFile);
+            loadConfiguration();
         }
-        catch (Exception e)
-        {
-
-        }
-        finally
-        {
-        configuration.save();
-        }
-
-        System.out.print(configValue);
-
-        System.out.println("Configuration Test" + configValue);
-
     }
 
+    private static void loadConfiguration()
+    {
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
+
+        if (configuration.hasChanged())
+        {
+            configuration.save();
+        }
+    }
+
+    @SubscribeEvent
+    public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
+    {
+        if (event.modID.equalsIgnoreCase(Reference.MOD_ID))
+        {
+            loadConfiguration();
+        }
+    }
 }

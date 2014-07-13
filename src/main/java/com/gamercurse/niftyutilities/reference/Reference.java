@@ -9,5 +9,5 @@ public class Reference {
     public static final String VERSION = "1.7.10-1.0";
     public static final String Client_Proxy_Class = "com.gamercurse.niftyutilities.Proxy.ClientProxy";
     public static final String Server_Proxy_Class = "com.gamercurse.niftyutilities.ServerProxy";
-    public static final String Forge_Version = "1.7.10-10.13.0.1179";
+    public static final String GUI_Factory_Class = "com.gamercurse.niftyutilities.gui.GuiFactory";
 }
