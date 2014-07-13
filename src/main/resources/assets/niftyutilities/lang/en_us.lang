@@ -1,3 +1,5 @@
 item.niftyutilities:Wrench.name=Wrench
 item.niftyutilities:GoldPowder.name=Gold Powder
 item.niftyutilities:IronPowder.name=Iron Powder
+tile.niftyutilities:SmokedStone.name= Smoked Stone
+tile.niftyutilities:PortalFrame.name=Portal Frame

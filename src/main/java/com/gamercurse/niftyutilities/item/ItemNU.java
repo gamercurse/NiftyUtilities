@@ -1,5 +1,6 @@
 package com.gamercurse.niftyutilities.item;
 
+import com.gamercurse.niftyutilities.creativetab.CreativeTabNUTIL;
 import com.gamercurse.niftyutilities.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemNU extends Item
     public ItemNU()
     {
         super();
+        setCreativeTab(CreativeTabNUTIL.NUTIL);
     }
 
     @Override

@@ -2,6 +2,7 @@ package com.gamercurse.niftyutilities;
 
 import com.gamercurse.niftyutilities.Proxy.IProxy;
 import com.gamercurse.niftyutilities.handler.ConfigurationHandler;
+import com.gamercurse.niftyutilities.init.ModBlocks;
 import com.gamercurse.niftyutilities.init.ModItems;
 import com.gamercurse.niftyutilities.reference.Reference;
 import com.gamercurse.niftyutilities.utility.LogHelper;
@@ -26,6 +27,8 @@ public class NiftyUtilities
         LogHelper.info("Pre Initialization Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

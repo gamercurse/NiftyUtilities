@@ -7,5 +7,8 @@ public class ItemGoldPowder extends ItemNU
         super();
         this.setUnlocalizedName("GoldPowder");
         setMaxStackSize(64);
+
+
+
     }
 }

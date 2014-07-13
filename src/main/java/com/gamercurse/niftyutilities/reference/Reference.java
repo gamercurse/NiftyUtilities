@@ -10,4 +10,5 @@ public class Reference {
     public static final String Client_Proxy_Class = "com.gamercurse.niftyutilities.Proxy.ClientProxy";
     public static final String Server_Proxy_Class = "com.gamercurse.niftyutilities.ServerProxy";
     public static final String GUI_Factory_Class = "com.gamercurse.niftyutilities.gui.GuiFactory";
+
 }

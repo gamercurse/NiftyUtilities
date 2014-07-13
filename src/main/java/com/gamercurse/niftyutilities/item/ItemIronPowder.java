@@ -7,5 +7,6 @@ public class ItemIronPowder extends ItemNU
         super();
         this.setUnlocalizedName("IronPowder");
         setMaxStackSize(64);
+        
     }
 }
