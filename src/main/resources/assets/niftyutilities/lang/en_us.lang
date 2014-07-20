@@ -1,5 +1,51 @@
+// Items //
+
 item.niftyutilities:Wrench.name=Wrench
 item.niftyutilities:GoldPowder.name=Gold Powder
 item.niftyutilities:IronPowder.name=Iron Powder
-tile.niftyutilities:SmokedStone.name= Smoked Stone
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+item.niftyutilities:
+
+
+// Blocks //
+
 tile.niftyutilities:PortalFrame.name=Portal Frame
+tile.niftyutilities:BlackStoneBrick.name=Black Stone Brick
+tile.niftyutilities:LimeStoneBrick.name=Lime Stone Brick
+tile.niftyutilities:BlueStoneBrick.name=Blue Stone Brick
+tile.niftyutilities:RedStoneBrick.name=Red Stone Brick
+tile.niftyutilities:YellowStoneBrick.name=Yellow Stone Brick
+tile.niftyutilities:OrangeStoneBrick.name=Orange Stone Brick
+tile.niftyutilities:GreenStoneBrick.name=Green Stone Brick
+tile.niftyutilities:CyanStoneBrick.name=Cyan Stone Brick
+tile.niftyutilities:MagentaStoneBrick.name=Magenta Stone Brick
+tile.niftyutilities:LightRedStoneBrick.name=Light Red Stone Brick
+tile.niftyutiliries:BrownStoneBrick.name=Brown Stone Brick
+tile.niftyutilities:LightBlueStoneBrick.name=Light Blue Stone Brick
+tile.niftyutilities:GrayStoneBrick.name=Gray Stone Brick
+tile.niftyutilities:PurpleStoneBrick.name=Purple Stone Brick
+tile.niftyutilities:WhiteStoneBrick.name=White Stone Brick
+tile.niftyutilities:BluePlanks.name=Blue Planks
+tile.niftyutilities:RedPlanks.name=Red Planks
+tile.niftyutilities:GreenPlanks.name=Green Planks
+tile.niftyutilities:PurplePlanks.name=Purple Planks
+tile.niftyutilities:CyanPlanks.name=Cyan Planks
+tile.niftyutilities:WhitePlanks.nam=White Planks
+tile.niftyutilities:BlackPlanks.name=Black Planks
+tile.niftyutilities:OrangePlanks.name=Orange Planks
+tile.niftyutilities:YellowPlanks.name=Yellow Planks
+tile.niftyutilities:LightRedPlanks.name=Light Red Planks
+tile.niftyutilities:LightBluePlanks.name=Light Blue Planks
+
+
+

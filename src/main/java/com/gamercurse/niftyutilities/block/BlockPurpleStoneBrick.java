@@ -2,11 +2,11 @@ package com.gamercurse.niftyutilities.block;
 
 import net.minecraft.block.material.Material;
 
-public class BlockPortalFrame extends BlockNUTIL
+public class BlockPurpleStoneBrick extends BlockNUTIL
 {
-    public BlockPortalFrame()
+    public BlockPurpleStoneBrick()
     {
         super(Material.rock);
-       this.setBlockName("PortalFrame");
+        this.setBlockName("PurpleStoneBrick");
     }
 }
